@@ -66,3 +66,131 @@ footer p {
     margin: 0;
     color: #fff;
 }
+
+/* Roadmap Section */
+#roadmap {
+    background: linear-gradient(135deg, #e0e0e0, #f7f7f7); /* Light, soft gradient */
+    padding: 60px 0;
+}
+
+#roadmap h2 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #333; /* Dark text for clear visibility */
+}
+
+/* Milestone Columns */
+#roadmap .col-md-3 {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+/* Milestone Titles */
+#roadmap h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #444; /* Slightly dark gray for readability */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Milestone Description Box */
+#roadmap p {
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #17a2b8; /* BetBlock brand blue for the boxes */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect for Milestone */
+#roadmap p:hover {
+    background-color: #1b6b96; /* Darker blue on hover */
+    transform: translateY(-10px); /* Slight lift effect */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+}
+
+/* Timeline Circle (optional) */
+#roadmap .timeline-indicator {
+    width: 16px;
+    height: 16px;
+    background-color: #17a2b8;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* General Section Padding */
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Social Media Section */
+#social-media {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+
+#social-media h2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#social-media p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Social Buttons */
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.social-btn:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Social Logos */
+.social-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* X Logo */
+.social-btn img[alt="X logo"] {
+    background-color: #1DA1F2; /* Twitter blue */
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* Telegram Logo */
+.social-btn img[alt="Telegram logo"] {
+    background-color: #0088cc; /* Telegram blue */
+    border-radius: 50%;
+    padding: 5px;
+}
